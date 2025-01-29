@@ -1,0 +1,119 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el body */
+body {
+    font-family: Calibri;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    padding: 20px;
+}
+
+/* Estilo para el header */
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Espaciado debajo del header */
+}
+
+img {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 120%;
+    font-family: Calibri;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+h1 {
+    color: #000000;
+    background-color: #ff0000;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 300%;
+    box-shadow: 0px 0px 8px #fff;
+}
+
+h2 {
+    display:inline-block;
+    color: #000000;
+    background-color: #ff0000;
+    font-family:Calibri;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 150%;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #fff;
+}
+
+h3 {
+    color: #ffffff;
+    padding:10px 20px;
+}
+
+h3:hover {
+    color: #ff0000;
+    transition-duration: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#img2 {
+    width: 255px;
+    padding: 5px 20px;
+}
+
+#mail {
+    font-size: larger;
+    vertical-align: bottom;
+    margin-top: 20%;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+#mail:hover {
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+#titulo {
+    color:#000000;
+    background-color: #ff0000;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 300%;
+    display: inline-block;
+}
+
+#titulo:hover {
+    color: #ffffff;
+    transition-duration: 1s;
+}
+
+#titulo2:hover {
+    color: #fff;
+    transition-duration: 1s;
+}
+
+
